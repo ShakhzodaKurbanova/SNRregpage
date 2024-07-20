@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Регистрация</title>
+</head>
+<body>
+    <section>
+        <div class="FormWrapper">
+            <span class="back">Назад</span>
+            <span class="close">х</span>
+            <h1>Регистрация</h1>
+            <form action="">
+                <label for="">
+                    Введите Ф.И.О ребенка:
+                    <input type="text" required>
+                </label>
+                <label for="">
+                    Введите возраст ребенка:
+                    <input type="number" name="age" id="age">
+                </label>
+                <label for="">
+                    Введите Ф.И.О родителя:
+                    <input type="text" required>
+                </label>
+                <label for="">
+                    <select name="course" id="course">
+                        <option value="none">Выберите курс</option>
+                        <option value="robo">Робототехника</option>
+                        <option value="elect">Электроника</option>
+                        <option value="arduino">Ардуино</option>
+                        <option value="robowar">Робо бои</option>
+                        <option value="itkids">Программирование для детей</option>
+                        <option value="it">Программирование</option>
+                        <option value="3d">3D моделирование</option>
+                        <option value="chess">Шахматы</option>
+                        <option value="art">Рисование</option>
+                        <option value="english">Английский язык</option>
+                        <option value="math">Математика</option>
+                    </select>
+                </label>
+                <label for="">
+                    Введите номер телефона:
+                    <input type="tel" >
+                </label>
+                <label for="">
+                    Выберите ближайший вам филиал:
+                    <select name="branch" id="branch">
+                        <option value="yunusabad">Юнусабадский район</option>
+                        <option value="chilanzar">Чиланзарский район</option>
+                    </select>
+                </label>
+            </form>
+            <input type="submit" value="Отправить">
+        </div>
+    </section>
+</body>
+</html>
