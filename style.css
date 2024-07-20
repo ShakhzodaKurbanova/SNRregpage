@@ -9,13 +9,72 @@ section {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    padding-top: 200px;
+    padding-top: 100px;
 }
 .FormWrapper {
     width: 1076px;
     background-color: white;
     margin: 0 auto;
-    padding: 30px 30px 72px 30px;
+    padding: 30px;
     border-radius: 24px;
     text-align: center;
+}
+img {
+    width: 75px;
+    display: inline;
+}
+.close{
+    display: block;
+    text-align: right;
+    font-family: 'NoirPro-Light';
+    color: black;
+    font-size: 24px;
+}
+.FormWrapper p{
+    font-size: 16px;
+    line-height: 22px;
+    color: gray;
+    margin-bottom: 12px;
+}
+.FormWrapper a{
+    text-decoration: none;
+}
+.FormWrapper h1{
+    font-family: 'NoirPro-Bold';
+    font-size: 44px;
+    line-height: 52.8px;
+    color: black;
+    margin-bottom: 32px;
+}
+.FormWrapper form{
+    width: 358px;
+    margin: 0 auto;
+}
+.FormWrapper form label{
+    display: block;
+    font-family: 'NoirPro-Regular';
+    font-size: 16px;
+    line-height: 22px;
+    text-align: left;
+    margin-bottom: 16px;
+    color:black;
+}
+.FormWrapper form input{
+    display: block;
+    width: 100%;
+    margin-top: 8px;
+    padding: 14 px 12 px;
+    background-color: rgb(214, 213, 211);
+    border: 0;
+    outline: none;
+    border-radius: 8px;
+}
+.FormWrapper form input[type='submit']{
+    background-color: blue;
+    color: white;
+    font-family: 'NoirPro-Medium';
+    font-size: 16px;
+    line-height: 18.75px;
+    margin-top: 32px;
+    cursor: pointer;
 }
